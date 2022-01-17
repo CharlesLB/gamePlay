@@ -61,11 +61,11 @@ expo start
 Lembre-se de criar o seu App no servidor do Discord para obter as credencias de autenticação. Em seguida, defina no arquivo .env as configurações do seu App (remova o example do arquivo .env.example).
 
 ```cl
-REDIRECT_URI=
-SCOPE=
-RESPONSE_TYPE=
-CLIENT_ID=
-CDN_IMAGE=
+REDIRECT_URI=REDIRECT_DA_SUA_APLICACAO_EXPO
+SCOPE=identify%20email%20connections%20guilds
+RESPONSE_TYPE=token
+CLIENT_ID=ID_DA_SUA_APLICACAO_NO_DISCORD
+CDN_IMAGE=https://cdn.discordapp.com
 ```
 
 ## 📄 Licença
